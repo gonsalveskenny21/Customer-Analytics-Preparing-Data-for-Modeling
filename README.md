@@ -7,7 +7,8 @@
   - Columns containing floats must be stored as 16-bit floats (float16).
   - Columns containing nominal categorical data must be stored as the category data type.
   - Columns containing ordinal categorical data must be stored as ordered categories, and not mapped to numerical values, with an order that reflects the natural order of the column.
-  - The columns of ds_jobs_clean must be in the same order as the original dataset.
+    
+- The columns of ds_jobs_clean must be in the same order as the original dataset.
 
 - If you call .info() or .memory_usage() methods on ds_jobs and ds_jobs_clean after you've preprocessed it, you should notice a substantial decrease in memory usage.
   
